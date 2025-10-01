@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36511.14 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HMI_template_v0.2", "HMI_template_v0.2.csproj", "{B066DCDA-F321-4BD1-A320-9FFBBCAF4FCA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B066DCDA-F321-4BD1-A320-9FFBBCAF4FCA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B066DCDA-F321-4BD1-A320-9FFBBCAF4FCA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B066DCDA-F321-4BD1-A320-9FFBBCAF4FCA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B066DCDA-F321-4BD1-A320-9FFBBCAF4FCA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {70814D7A-0EBD-45F8-81AD-07EA5070EF83}
+	EndGlobalSection
+EndGlobal
