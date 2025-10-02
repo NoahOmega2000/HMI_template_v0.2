@@ -11,6 +11,7 @@ namespace HMI_template_v0._2
         public MainWindow()
         {
             InitializeComponent();
+            fContainer.Navigate(new System.Uri("Pages/Dashboard.xaml", UriKind.RelativeOrAbsolute));
         }
 
         // Start: Button Close | Restore | Minimize 
@@ -45,11 +46,10 @@ namespace HMI_template_v0._2
             fContainer.Navigate(new System.Uri("Pages/Dashboard.xaml", UriKind.RelativeOrAbsolute));
         }
 
-        // Aggiungi qui gli altri eventi 'Click' per la navigazione se necessario
-        // Esempio:
-        // private void btnProducts_Click(object sender, RoutedEventArgs e)
-        // {
-        //     fContainer.Navigate(new System.Uri("Pages/Products.xaml", UriKind.RelativeOrAbsolute));
-        // }
+        private void btnSettings_Click(object sender, RoutedEventArgs e)
+        {
+            fContainer.Navigate(new System.Uri("Pages/Settings.xaml", UriKind.RelativeOrAbsolute));
+        }
+
     }
 }

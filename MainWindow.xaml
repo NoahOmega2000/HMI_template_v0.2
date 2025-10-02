@@ -11,9 +11,6 @@
         Background="Transparent" AllowsTransparency="True"
         ResizeMode="NoResize" FontFamily="Poppins">
 
-    <!-- By Jeyderht 
-        Subscribe: https://www.youtube.com/channel/UC9di50E_9m9pQcZPxzFqYUA/about
-        -->
     <Border Background="{DynamicResource PrimaryBackgroundColor}"
             CornerRadius="8">
         <Grid>
@@ -53,14 +50,12 @@
                     <!-- Start: MenuItem -->
                     <DockPanel Grid.Row="1" Margin="-1 40 0 20">
 
-                        <!-- MODIFICA: Rimossi MouseEnter e MouseLeave -->
-                        <Button x:Name="btnSetting" DockPanel.Dock="Bottom" Style="{DynamicResource PopupButtonStyle}">
+
+                        <Button x:Name="btnSetting" DockPanel.Dock="Bottom" Style="{DynamicResource PopupButtonStyle}" Click="btnSettings_Click">
                             <ctls:MenuItem GroupName="MenuItem" IndicatorBrush="{DynamicResource PrimaryBlueColor}" Icon="{DynamicResource settings}" IconWidth="16" Text="Setting" VerticalAlignment="Center"/>
                         </Button>
 
-                        <!-- Tutti gli altri bottoni vengono impilati dall'alto (comportamento di default) -->
                         <StackPanel>
-                            <!-- MODIFICA: Rimossi MouseEnter e MouseLeave da tutti i bottoni -->
                             <Button x:Name="btnHome" Style="{DynamicResource PopupButtonStyle}" Click="btnHome_Click">
                                 <ctls:MenuItem GroupName="MenuItem" IndicatorBrush="{DynamicResource PrimaryBlueColor}" Icon="{DynamicResource home}" IconWidth="16" Text="Home" VerticalAlignment="Center"/>
                             </Button>
